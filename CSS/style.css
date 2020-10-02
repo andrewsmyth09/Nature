@@ -55,3 +55,20 @@
 .quote {
     font-size: 1.2em;
 }
+
+/* About Section */
+
+.about {
+    padding-top: 2em;
+}
+
+.about_entry {
+    width: 50%;
+    margin: auto;
+    background-color: #d1cbcb;
+}
+
+.about_img {
+    width: 100%;
+    margin-top: 0;
+}
