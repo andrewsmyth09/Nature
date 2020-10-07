@@ -17,6 +17,7 @@
     text-align: center;
     border-bottom: .5px solid white;
     list-style: none;
+    display: none;
 }
 
 .nav_menu > li:last-child {
@@ -25,6 +26,20 @@
 
 .nav_menu > li:hover {
     background-color: #494c52;
+}
+
+.nav_menu:hover li {
+    display: block;
+}
+
+.material-icons {
+    color: whitesmoke;
+    font-size: 20em;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    left: 44%;
+    padding: 0 1em 0 1em;
 }
 
 .nav_menu li a {
@@ -63,12 +78,55 @@
 }
 
 .about_entry {
-    width: 50%;
-    margin: auto;
+    width: 80%;
+    margin: 10px auto;
     background-color: #d1cbcb;
+    border: 2px ridge black;
 }
 
 .about_img {
     width: 100%;
     margin-top: 0;
+}
+
+.about_title {
+    line-height: 2em;
+    font-size: 1.2em;
+}
+
+.description {
+    padding: 1em;
+    font-weight: 100;
+    line-height: 1.3em;
+    /* text-align: center; */
+}
+
+.description > button {
+    padding: 1em;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    text-align: center;
+    margin-top: 1.5em;
+    width: 300px;
+}
+
+/* Services Section */
+.services {
+    background-image: url('/IMG/mountains-1412683_1280.jpg');
+    height: 200px;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+}
+
+/* Footer Section */
+
+.contact {
+    background-color: #272c36;
+    height: 50px;
+    color: white;
+}
+.contact_logo {
+    padding: 1em;
+    text-align: center;
 }
